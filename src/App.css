@@ -1,0 +1,57 @@
+.light {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100vh;
+  button {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+  }
+  justify-content: center;
+  align-items: center;
+  border: 2px solid burlywood;
+}
+
+.dark {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  button {
+    background-color: #1e3a8a;
+    color: #dbeafe;
+  }
+  justify-content: center;
+  align-items: center;
+  border: 2px solid burlywood;
+}
+
+button {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30%;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.butonlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
